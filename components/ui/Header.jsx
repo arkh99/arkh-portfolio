@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "./button"; 
 import Nav from "./Nav";
+import MobileNav from "../MobileNav";
 const Header = () => {
     return (
         <header className="py-8 xl:py-12 text-white">
@@ -18,7 +19,7 @@ const Header = () => {
                 </div>
 
                 <div className="xl:hidden">
-                    Mobile nav
+                    <MobileNav />
                 </div>
             </div>  
         </header>
