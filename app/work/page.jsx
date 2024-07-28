@@ -74,14 +74,48 @@ const Work = () => {
             <div>
               <div className="text-8xl leading-none font-extabold text-transparent text-outline">
                 {project.num}
-                          </div>
-                          <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.category} project</h2>
-                          <p className="text-white/60">{project.description}</p>
-                          <ul className="flex gap-4">
-                              {project.stack.map((item, index) => {
-                                  return <li key={index} className="text-xl text-accent">{item.name}, </li>
-                              })}
-                          </ul>
+              </div>
+              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
+                {project.category} project
+              </h2>
+              <p className="text-white/60">{project.description}</p>
+              <ul className="flex gap-4">
+                {project.stack.map((item, index) => {
+                  return (
+                    <li key={index} className="text-xl text-accent">
+                      {item.name}
+                      {index !== project.stack.length - 1 && ","}
+                    </li>
+                  );
+                })}
+              </ul>
+              <div className="border border-white/20"></div>
+              <div className="flex items-center gap-4">
+                <Link href={project.live}>
+                  <TooltipProvider delayDuration={50}>
+                    <Tooltip>
+                      <TooltipTrigger className="mt-4 w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
+                        <BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
+                      </TooltipTrigger>
+                      <TooltipContent>
+                        <p>Live project</p>
+                      </TooltipContent>
+                    </Tooltip>
+                  </TooltipProvider>
+                </Link>
+                <Link href={project.github}>
+                  <TooltipProvider delayDuration={50}>
+                    <Tooltip>
+                      <TooltipTrigger className="mt-4 w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
+                        <BsGithub className="text-white text-3xl group-hover:text-accent" />
+                      </TooltipTrigger>
+                      <TooltipContent>
+                        <p>Github Repository</p>
+                      </TooltipContent>
+                    </Tooltip>
+                  </TooltipProvider>
+                </Link>
+              </div>
             </div>
           </div>
           <div className="w-full xl:w-[50%]">slider</div>
