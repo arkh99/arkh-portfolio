@@ -35,12 +35,16 @@ const about = {
     {
       fieldName: "Education",
       filedValue:
-        "Algonquin college, Web development and Internet Applications",
+        "Algonquin college",
     },
     {
       fieldName: "Technologies",
-      filedValue: "Full stack dev, UX/UX design",
-    },
+      filedValue: "Full Stack",
+      },
+      {
+        fieldName: "Languages",
+        filedValue: "English, Persian",
+      },
   ],
 };
 const experience = {
@@ -282,16 +286,18 @@ const Resume = () => {
 
             <TabsContent value="about" className="w-full text-center xl:text-left">
                           <div className="flex flex-col gap-[30px]">
-                              <h3 className="tetx-4xl font-bold">
+                              <h3 className="text-3xl font-bold">
                                   {about.title}
                               </h3>
-                              <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
-                              <ul>
+                              <p className="max-w-[650px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
+                              <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                                   {about.info.map((item, index) => {
-                                      return <li key={index}>
-                                          <span>{item.fieldName}</span>
-                                          <span>{item.filedValue}</span>
-                                      </li>
+                                      return (
+                                          <li key={index} className="flex items-center justify-center gap-4">
+                                          <span className="text-white/60">{item.fieldName}</span>
+                                          <span className="text-lg">{item.filedValue}</span>
+                                          </li>
+                                      )
                                   })}
                               </ul>
               </div>
