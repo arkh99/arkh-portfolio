@@ -37,6 +37,7 @@ const projects = [
     github: "https://github.com/arkh99/Bankist-project",
   },
   {
+    
     num: "03",
     category: "Front-end",
     title: "Personal portfolio",
@@ -44,7 +45,7 @@ const projects = [
       "This is my portfolio !",
     stack: [{ name: "Next.js" }, { name: "Tailwind Css" }],
     image: "/assets/work/thumb3.png",
-    live: "https://arkh-portfolio-7cux1ghxo-arkh99s-projects.vercel.app/",
+    live: "https://arkh-portfolio.vercel.app/",
     github: "https://github.com/arkh99/arkh-portfolio",
   },
   {
