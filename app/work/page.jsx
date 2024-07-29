@@ -16,24 +16,24 @@ import WorkSlidersBtns from "@/components/WorkSlidersBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
+    category: "Front-end",
+    title: "weatherio",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, odio!",
+      "This project demonstrates my skills in Fron-end techs esp in JavaScript",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
     image: "/assets/work/thumb1.png",
-    live: "",
+    live: "https://arkh99.github.io/weatherio/#/current-location, This website works with OpenWeather API in order to display real time weather",
     github: "https://github.com/arkh99",
   },
   {
     num: "02",
-    category: "frontend",
-    title: "project 2",
+    category: "Front-end",
+    title: "Bankist",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, odio!",
+      "Bankist Frontend Project Overview Bankist is a minimalist banking web application that allows users to manage their accounts efficiently",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
     image: "/assets/work/thumb2.png",
-    live: "",
+    live: "https://arkh99.github.io/Bankist-project/",
     github: "https://github.com/arkh99",
   },
   {
