@@ -18,7 +18,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolorum!",
+    "I'm a passionate web developer currently seeking co-op opportunities for Winter 2025. With strong skills in both front-end and back-end development, I'm eager to apply my knowledge in real-world projects. I'm committed to continuous learning and excited to contribute to innovative solutions.",
   info: [
     {
       fieldName: "Name",
@@ -51,7 +51,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolorum!",
+    "With solid hands-on experience in both development and design, I've successfully implemented projects using full-stack technologies and Figma, bringing innovative solutions to life",
   items: [
     {
       company: "Error 404",
@@ -75,7 +75,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolorum!",
+    "I'm currently studying Web Development and Internet Applications at Algonquin College, gaining in-depth knowledge of modern web technologies and practices. I've also completed several bootcamp courses on platforms like Udemy and Coursera, further enhancing my skills in full-stack development. <a href='https://www.algonquincollege.com/sat/program/web-development-internet-applications/' target='_blank' rel='noopener noreferrer' class='text-accent underline'>Learn more about my program.</a>",
   items: [
     {
       institution: "Algonquin College",
@@ -102,7 +102,7 @@ const education = {
 
 const skills = {
   title: "My skills",
-  description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+  description: "Proficient in front-end and back-end technologies, including frameworks like React, Next.js, and Node.js. Experienced in creating responsive web applications and designing with tools like Figma, Illustrator, and Photoshop.",
   skilllist: [
     {
       icon: <FaHtml5 />,

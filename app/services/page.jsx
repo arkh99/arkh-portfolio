@@ -6,25 +6,25 @@ const services = [
     {
         num: "01",
         title: "Web Develompment",
-        description: "Lorem ipsum dolor sit amet.",
+        description: "Crafting responsive and dynamic websites tailored to your unique needs.",
         href: ""
     },
     {
         num: "02",
         title: "UI/Ux Design",
-        description: "Lorem ipsum dolor sit amet.",
+        description: "Designing intuitive and engaging user experiences that resonate.",
         href: ""
     },
     {
         num: "03",
         title: "Logo Design",
-        description: "Lorem ipsum dolor sit amet.",
+        description: "Creating memorable logos that embody your brand's identity.",
         href: ""
     },
     {
         num: "04",
         title: "SEO",
-        description: "Lorem ipsum dolor sit amet.",
+        description: "Optimizing your online presence for maximum visibility and impact.",
         href: ""
     },
 ];
