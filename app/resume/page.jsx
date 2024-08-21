@@ -75,7 +75,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "I'm currently studying Web Development and Internet Applications at Algonquin College, gaining in-depth knowledge of modern web technologies and practices. I've also completed several bootcamp courses on platforms like Udemy and Coursera, further enhancing my skills in full-stack development. <a href='https://www.algonquincollege.com/sat/program/web-development-internet-applications/' target='_blank' rel='noopener noreferrer' class='text-accent underline'>Learn more about my program.</a>",
+    "I'm currently studying Web Development and Internet Applications at Algonquin College, gaining in-depth knowledge of modern web technologies and practices. I've also completed several bootcamp courses on platforms like Udemy and Coursera, further enhancing my skills in full-stack development.",
   items: [
     {
       institution: "Algonquin College",
